@@ -8,6 +8,7 @@ import interior2 from '../../images/interior2.png';
 import detail1 from '../../images/detail1.png';
 import detail2 from '../../images/detail2.png';
 import './cardetails.css';
+import Footer from "../footer/footer";
 
 function CarDetails()
 {
@@ -110,7 +111,7 @@ function CarDetails()
                 </div>
             </div>
             </div>
-            {/* <Footer/> */}
+            <Footer/>
     </React.Fragment>);
 }
 export default CarDetails;

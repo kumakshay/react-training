@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import BMWX7 from '../../images/BMWX7.jpg';
 import { Car } from "../modals/cars";
 import '../carlist/carlist.css';
+import Footer from "../footer/footer";
 
 
 function CarList(){
@@ -43,6 +44,7 @@ function CarList(){
 
             }
           </div>
+          <Footer/>
         </div>
       );
     }

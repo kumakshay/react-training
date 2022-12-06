@@ -8,6 +8,7 @@ import BMWX7 from '../../images/BMWX7.jpg';
 import audi from '../../images/audi.jpg';
 import mercedes from '../../images/mercedes.jpg';
 import BMW from '../../images/BMW.jpg';
+import Footer from '../footer/footer';
 
 function LandingPage(){
     const [cars, setCars] = useState<Car[]>([]);
@@ -99,7 +100,7 @@ function LandingPage(){
           </div>
         </div>
           </div>
-    
+          <Footer/>
         </div>
       );
     }
