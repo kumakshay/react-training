@@ -1,0 +1,60 @@
+.container{
+    background-color: white;
+    width:100%;
+}
+.arrow{
+    padding-left: 50%;
+}
+.btn:focus {
+
+    outline: 0;
+    
+    box-shadow: none;
+    
+    background-color: black;
+    
+    color:white;
+    
+    }
+    
+    
+    button.btn.btn-outline-dark {
+
+        margin: 1vh;
+        
+        width: 20vh;
+        
+        border-radius: 0;
+        
+        border:none;
+        
+        }
+        
+        button.btn.btn-outline-dark:focus {
+        
+        box-shadow: none;
+        
+        
+        
+        }
+    .button-card {
+
+        min-width: 0;
+        
+        width:60%;
+        
+        background-color: #fafaf5;
+        
+        border-radius: 0;
+        
+        display:flex;
+        
+        flex-direction: row;
+        
+        border:none;
+        
+        }
+        dl, ol, ul {
+            margin-top: 0;
+            margin-bottom: 0 !important;
+        }

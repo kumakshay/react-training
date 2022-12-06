@@ -1,0 +1,122 @@
+.landingpage{
+    width: 100%;
+    height: 100vh;
+}
+.arrow{
+    padding-left: 60%;
+}
+
+body h1.FindCar.style {
+    position: absolute;
+
+    top: 20% ;
+    
+    left: 50% ;
+    
+    transform: translateX(-50%) ;
+    
+    font-weight: 700 ;
+    
+    color: #FFFFFF ;
+    
+    text-shadow: 0px 4px 12px rgba(255, 255, 255, 0.6) ;
+    
+    }
+    img.d-block.w-100 {width: 100%;height: 75vh; filter: brightness(50%);}
+
+input.search-bar {
+
+        position: absolute;
+        
+        top: 70%;
+        
+        left: 50%;
+        
+        width: 80%;
+        
+        transform: translate(-50%);
+        
+        height:5vh;
+        
+        }
+        
+        button.search-button {position: absolute;
+        
+        top: 70%;
+        
+        left: 80%;
+        
+        width: 10%;
+        
+        height:5vh;
+        
+        }
+        
+        danger:focus {
+        
+        color: #fff;
+        
+        background-color: #bb2d3b;
+        
+        border-color: #b02a37;
+        
+        box-shadow:none !important;
+        
+        }
+        .btn:focus {
+
+            outline: 0;
+            
+            box-shadow: none;
+            
+            background-color: black;
+            
+            color:white;
+            
+            }
+            
+            .button-viewall {
+            
+            border: none;
+            
+            background-color: white;
+            
+            font-weight: bold;
+            
+            }
+            button.btn.btn-outline-dark {
+
+                margin: 1vh;
+                
+                width: 20vh;
+                
+                border-radius: 0;
+                
+                border:none;
+                
+                }
+                
+                button.btn.btn-outline-dark:focus {
+                
+                box-shadow: none;
+                
+                
+                
+                }
+            .button-card {
+
+                min-width: 0;
+                
+                width:40vh;
+                
+                background-color: #fafaf5;
+                
+                border-radius: 0;
+                
+                display:flex;
+                
+                flex-direction: row;
+                
+                border:none;
+                
+                }

@@ -1,0 +1,19 @@
+.container{
+    background-color: white;
+    width:100%;
+}
+.box{
+    background-color: gray;
+    height: 100px;
+    width: 80%;
+}
+.booking-button.btn {
+    background-color: darkred;
+    position: absolute;
+    width: 20%;
+    margin-top: 8vh;
+    color: white;
+}
+.booking-button.btn:hover {
+    color: white;
+}
